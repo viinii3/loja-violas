@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#img-carousel{
+    height: 450px;
+}
+
+.card img{
+    height: 500px;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+#carousel-template{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.card-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-footer{
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    margin: 20px;
+}
